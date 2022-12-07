@@ -1,4 +1,8 @@
-@import url(https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap);
+
+:root {
+  --link-color: rgb(0, 102, 204);
+}
 
 * {
   font-weight: 400;
@@ -21,9 +25,17 @@ body {
 }
 
 b {
-  font-weight: 500;
+  font-weight: 600;
 }
 
 p {
   font-size: medium;
+}
+
+a {
+  color: var(--link-color);
+}
+
+a:visited {
+  color: var(--link-color);
 }
